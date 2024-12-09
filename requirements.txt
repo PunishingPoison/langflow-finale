@@ -2,4 +2,4 @@ flask==2.3.2
 langflow==0.6.7  # Compatible version for Python 3.9-3.11
 transformers==4.30.0  # Ensure compatibility with Hugging Face models
 torch==1.13.0  # Appropriate PyTorch version for transformers
-requests==2.28.2  # For handling API requests
+requests>=2.31.0  # Adjusted version to satisfy both llama-index and transformers
