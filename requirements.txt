@@ -1,5 +1,5 @@
 flask==2.3.2
-flask-cors==3.2.3
+flask-cors==5.0.0
 langflow==0.6.7  # Compatible version for Python 3.9-3.11
 transformers==4.30.0  # Ensure compatibility with Hugging Face models
 torch==1.13.0  # Appropriate PyTorch version for transformers
