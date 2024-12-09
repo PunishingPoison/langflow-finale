@@ -22,5 +22,5 @@ def process_with_langflow(input_data):
     # You will need to customize this based on your flow and logic
     return f"Processed input: {input_data}"
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=int(os.getenv("PORT", 8080)))
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=10000)
